@@ -1,0 +1,12 @@
+<div>
+    <section id="banner_section" style="width: 100% ;height: 100px;background-color: red">
+    </section>
+    <script type="text/javascript">
+      let url = window.location.pathname; /* 获取文件路径（文件地址） */
+      if (url.startsWith("/a/")) {
+        document.getElementById("banner_section").parentNode.removeChild(document.getElementById("banner_section"));
+      } else {
+        console.log("index is main")
+      }
+    </script>
+</div>

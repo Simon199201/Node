@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>轮播图</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://www.xsgy88.com/App/Home/View/Default/Public/Js/flash.csss">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="http://www.xsgy88.com/App/Home/View/Default/Public/Js/jquery.superslide.2.1.1.js"></script>
+
+    <style type="text/css">
+
+        body {
+
+            padding: 150px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+<div class="header">
+    <div class="flash">
+        <div class="flashBox">
+            <div class="hd">
+                <ul>
+                    <li class="on"></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                </ul>
+            </div>
+            <div class="bd">
+                <ul style="position: relative; width: 1920px; height: 499px;">
+                    <li style="position: absolute; width: 1920px; left: 0px; top: 0px; display: list-item;">
+                        <a href="/product" title="灰钙粉-白水泥-氢氧化钙-白灰-石灰厂家-卫辉市鑫山新型建材有限公司" target="_blank"><img src="banner3.jpg"
+                                                                                                           alt="灰钙粉-白水泥-氢氧化钙-白灰-石灰厂家-卫辉市鑫山新型建材有限公司"></a>
+                    </li>
+                    <li style="position: absolute; width: 1920px; left: 0px; top: 0px; display: none;">
+                        <a href="/product" title="灰钙粉-白水泥-氢氧化钙-白灰-石灰厂家-卫辉市鑫山新型建材有限公司" target="_blank"><img src="banner2.jpg"
+                                                                                                           alt="灰钙粉-白水泥-氢氧化钙-白灰-石灰厂家-卫辉市鑫山新型建材有限公司"></a>
+                    </li>
+                    <li style="position: absolute; width: 1920px; left: 0px; top: 0px; display: none;">
+                        <a href="/product" title="灰钙粉-白水泥-氢氧化钙-白灰-石灰厂家-卫辉市鑫山新型建材有限公司" target="_blank"><img src="banner3.jpg"
+                                                                                                           alt="灰钙粉-白水泥-氢氧化钙-白灰-石灰厂家-卫辉市鑫山新型建材有限公司"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 下面是前/后按钮代码-->
+            <!--<a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>-->
+        </div>
+        <script type="text/javascript">
+            jQuery(".flashBox").slide({
+                mainCell: ".bd ul",
+                effect: "fold",
+                autoPlay: true
+            });
+        </script>
+    </div>
+
+
+</div>
+</body>
+
+</html>
